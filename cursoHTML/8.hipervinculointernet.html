@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="../index.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursohtml.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2">Hipervínculo a otro sitio de internet &lt;a&gt;</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            
+<p>La sintaxis para disponer un hipervínculo a otro sitio de internet es:</p>
+<pre class="recuadro">
+&lt;a href=&quot;http://www.google.com&quot;&gt;Buscador Google&lt;/a&gt;
+</pre>
+<p>Ahora la propiedad href la inicializamos con el nombre del dominio del otro sitio.</p>
+<p>Algo importante que hay que anteceder al nombre del dominio es el tipo de protocolo a utilizar. Cuando se trata de una página de internet, el protocolo es el http.</p>
+<p>Resumiendo a la propiedad href la inicializamos con el nombre del protocolo (http) seguida de dos puntos (:) y dos barras (//) luego la cadena (www.) y finalmente el nombre de dominio del sitio a enlazar.</p>
+<p>La siguiente página muestra un hipervínculo al sitio principal del buscador Google:</p>
+<pre class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Título de la página&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;a href="http://www.google.com"&gt;Buscador Google&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>Si analizamos un poco y pensamos que este elemento HTML nos permite pedir una página a un servidor para que la cargue en el navegador: ¿Qué página nos retorna del dominio www.google.com ?<br>
+La respuesta es que todo servidor cuando recibe una petición de una página sin indicar su nombre (es decir sólo está el nombre de dominio) selecciona y envía una página que tiene configurada el servidor como página por defecto (generalmente esa página es la principal del sitio y a partir de la cual podemos navegar mediante hipervínculos a otras páginas que se encuentran en dicho dominio)</p>
+<p>Podemos enlazar a una página determinada de otro sitio. Veamos un ejemplo, si queremos disponer un enlace (hipervínculo) a la pagina acercade.html del dominio tutorialesprogramacionya.com la sintaxis será la siguiente:</p>
+<pre class="recuadro">
+&lt;a href=&quot;http://tutorialesprogramacionya.com/acercade.html&quot;&gt;Acerca de Google&lt;/a&gt; 
+</pre>
+<p>Debemos conocer exactamente el nombre de la página (en este caso acercade.html) y también si la página no se encuentra en el directorio raiz debemos saber exactamente el camino de directorios.</p>
+                        </div>
+                    </div>
+                        <div class="atras">
+                            <h2><a href="/html/cursohtml.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

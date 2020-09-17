@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="../index.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursocss.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2">Agrupación de varios elementos HTML con una misma regla de estilo.</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            
+<p>Esta característica nos permite ahorrar la escritura de reglas duplicadas para diferentes elementos de HTML.</p>
+<p>La sintaxis es disponer los nombres de los elementos HTML que queremos aplicar una regla separados por comas:</p>
+<pre  class="recuadro">
+h1,h2,h3 {
+  font-family:verdana;
+  color:#0000ff;
+}
+</pre>
+<p>Supongamos que queremos la misma fuente y color para los elementos h1,h2 y h3 luego podemos implementarlo de la siguiente manera:</p>
+<pre  class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Problema&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+
+&lt;style&gt;
+h1,h2,h3 {
+  font-family:verdana;
+  color:#0000ff;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;T&iacute;tulo de nivel 1&lt;/h1&gt;
+&lt;h2&gt;T&iacute;tulo de nivel 2&lt;/h2&gt;
+&lt;h3&gt;T&iacute;tulo de nivel 3&lt;/h3&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<img src="https://www.tutorialesprogramacionya.com/cssya/temarios/imagentema/imagen022.jpg" border="0" alt="style agrupar reglas para varios elementos HTML"><br>
+<p>Es decir, separamos por coma todas los elementos a los que se aplicará la misma regla de estilo:</p>
+<pre  class="recuadro">
+h1,h2,h3 {
+  font-family:verdana;
+  color:#0000ff;
+} 
+</pre>
+                        <div class="atras">
+                            <h2><a href="/html/cursocss.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

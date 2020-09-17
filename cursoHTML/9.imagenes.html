@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="../index.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursohtml.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2">Imágenes dentro de una página &lt;img&gt;</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            
+
+<p>Para insertar una imagen dentro de una página debemos utilizar el elemento HTML &lt;img&gt;, la misma no tiene una marca de finalización (similar a la etiqueta &lt;br&gt;).</p>
+<p>Generalmente, la imagen se encuentra en el mismo servidor donde se almacenan nuestras páginas HTML. Los formatos clásicos son los archivos con extensiones gif, jpg y png.</p>
+<p>La sintaxis de esta etiqueta es:</p>
+<pre class="recuadro">
+&lt;img src=&quot;foto1.jpg&quot; alt=&quot;Pintura geom&eacute;trica&quot;&gt; 
+</pre>
+<p>Como mínimo, debemos inicializar las propiedades src y alt de la etiqueta HTML "img".</p>
+<p>En la propiedad src indicamos el nombre del archivo que contiene la imagen (en un servidor Linux es sensible a mayúsculas y minúsculas por lo que recomiendo que siempre utilicen minúsculas para los nombres de archivos).</p>
+<p>Como la imagen se encuentra en el mismo directorio donde se almacena la página HTML, con indicar el nombre de archivo basta (no es necesario indicar ninguna ruta de carpetas)</p>
+<p>Otra propiedad muy recomendada es alt, donde disponemos un texto que verán los usuarios que visiten el sitio con un navegador que sólo permite texto (o con un navegador que tenga desactivada la opción de descarga de imágenes). El texto debe describir el contenido de la imagen.</p>
+<p>Confeccionemos una página que muestre una imagen llamada foto1.jpg (La imagen se encuentra almacenada en el servidor en la misma carpeta donde se localiza esta página)</p>
+<pre class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Título de la página&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img src="foto1.jpg" alt="Pintura geométrica"&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>Al cargar esta página en un navegador tenemos como resultado:</p>
+<img src="http://www.tutorialesprogramacionya.com/htmlya/temarios/imagentema/foto003.jpg" border="0" alt="etiqueta img"><br>
+
+<p>Si la imagen se encuentra en una subcarpeta llamada imagenes, luego la sintaxis para recuperarla será:</p>
+<pre class="recuadro">
+&lt;img src=&quot;imagenes/foto1.jpg&quot; alt=&quot;Pintura geom&eacute;trica&quot;&gt;
+</pre>
+<p>Es decir, antecedemos al nombre de la imagen el nombre de la carpeta y la barra /</p>
+<p>Si la imagen se encuentra en una carpeta padre de donde se encuentra la página HTML luego la sintaxis será:</p>
+<pre class="recuadro">
+&lt;img src=&quot;../foto1.jpg&quot; alt=&quot;Pintura geom&eacute;trica&quot;&gt;
+</pre>
+<p>Es decir, le antecedemos .. y la barra / al nombre de la imagen</p>
+<p>Si queremos subir dos carpetas luego escribimos:</p>
+<pre class="recuadro">
+&lt;img src=&quot;../../foto1.jpg&quot; alt=&quot;Pintura geom&eacute;trica&quot;&gt;
+</pre>
+<p>Por último, si queremos acceder a una imagen que se encuentra en una carpeta llamada imagenes pero que está al mismo nivel:</p>
+<pre class="recuadro">
+&lt;img src=&quot;../imagenes/foto1.jpg&quot; alt=&quot;Pintura geom&eacute;trica&quot;&gt;
+</pre>
+<p>Primero le indicamos que subimos al directorio padre mediante los dos puntos .. y seguidamente indicamos el nombre de la carpeta y la imagen a mostrar.</p>
+<pre class="recuadro">
+<b>&lt;img&gt;</b> viene de la palabra <b>image</b>
+</pre>
+<pre class="recuadro">
+<b>src</b> viene de de la palabra <b>source</b>
+</pre>
+<pre class="recuadro">
+<b>alt</b> viene de la palabra <b>alternative</b>
+</pre>
+                        </div>
+                    </div>
+                        <div class="atras">
+                            <h2><a href="/html/cursohtml.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

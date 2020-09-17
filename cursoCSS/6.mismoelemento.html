@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="../index.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursocss.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2">Definición de varias reglas para un mismo elemento HTML.</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            <p>En algunas circunstancias, es necesario desglosar la inicialización de propiedades en distintas reglas.</p>
+<p>Podemos definir más de una regla para un elemento HTML, en este ejemplo el elemento h1 tiene dos reglas:</p>
+<pre class="recuadro">
+h1,h2,h3,h4,h5,h6 {
+  font-family:Verdana;
+}
+h1 {
+  font-size:40px;
+}
+</pre>
+<p>Supongamos que queremos todas las cabeceras con la misma fuente pero tamaños de fuente distinta, luego podemos implementarlo de la siguiente manera:</p>
+<pre class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Problema&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;style&gt;
+h1,h2,h3,h4,h5,h6 {
+  font-family:Verdana;
+}
+h1 {
+  font-size:40px;
+}
+h2 {
+  font-size:30px;
+}
+h3 {
+  font-size:25px;
+}
+h4 {
+  font-size:20px;
+}
+h5 {
+  font-size:15px;
+}
+h6 {
+  font-size:10px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;T&iacute;tulo de nivel 1&lt;/h1&gt;
+&lt;h2&gt;T&iacute;tulo de nivel 2&lt;/h2&gt;
+&lt;h3&gt;T&iacute;tulo de nivel 3&lt;/h3&gt;
+&lt;h4&gt;T&iacute;tulo de nivel 4&lt;/h4&gt;
+&lt;h5&gt;T&iacute;tulo de nivel 5&lt;/h5&gt;
+&lt;h6&gt;T&iacute;tulo de nivel 6&lt;/h6&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre> 
+<img src="https://www.tutorialesprogramacionya.com/cssya/temarios/imagentema/imagen023.jpg" border="0" alt="varias reglas para un mismo elemento html en css"><br>
+<p>Es decir, podemos inicializar un conjunto de elementos HTML con una serie de propiedades de estilo comunes. Luego agregamos en forma individual las propiedades no comunes a dichas marcas:</p>
+<pre class="recuadro">
+h1,h2,h3,h4,h5,h6 {
+  font-family:Verdana;
+}
+h1 {
+  font-size:40px;
+}
+</pre>
+<p>Es decir, al elemento h1 realmente le hemos definido 2 propiedades: font-family y font-size. Lo mismo para los otros elementos HTML.</p>
+                        <div class="atras">
+                            <h2><a href="/html/cursocss.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

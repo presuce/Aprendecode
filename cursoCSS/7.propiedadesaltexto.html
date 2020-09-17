@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="../index.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursocss.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2">Propiedades relacionadas al texto (color, text-align, text-decoration)</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            <p>A una de estas propiedades ya la vimos cuando comenzamos con los primeros conceptos: color, nos permite definir el color del texto, lo podemos indicar por medio de tres valores hexadecimales que indican la mezcla de rojo, verde y azul. Por ejemplo si queremos rojo puro debemos indicar:</p>
+<pre class="recuadro">
+color:#ff0000;
+</pre>
+<p>Si queremos verde puro:</p>
+<pre class="recuadro">
+color:#00ff00
+</pre>
+<p>Si queremos azul puro:</p>
+<pre class="recuadro">
+color:#0000ff
+</pre>
+<p>Luego si queremos amarillo debemos mezclar el rojo y el verde:</p>
+<pre class="recuadro">
+color:#ffff00
+</pre>
+<p>Hay muchos programas que nos permiten seleccionar un color y nos descomponen dicho valor en las proporciones de rojo, verde y azul.</p>
+<p>Otra forma de indicar el color, si tenemos los valores en decimal, es por medio de la siguiente sintaxis:</p>
+<pre class="recuadro">
+color:rgb(255,0,0);
+</pre>
+<p>Es decir, por medio de la función rgb(red,green,blue), indicamos la cantidad de rojo, verde y azul en formato decimal.</p>
+<br>
+<p>La segunda propiedad relacionada al texto es text-align, que puede tomar alguno de estos cuatro valores:</p>
+<pre class="recuadro">
+left 
+right 
+center
+justify  
+</pre>
+<p>Si especificamos:</p>
+<pre class="recuadro">
+text-align:center;
+</pre>
+<p>El texto aparecerá centrado. Si queremos justificar a derecha, emplearemos el valor right y si queremos a la izquierda, el valor será left.</p>
+
+<p>La tercera propiedad relacionada al texto que podemos emplear es text-decoration que nos permite entre otras cosas que aparezca subrayado el texto, tachado o una línea en la parte superior, los valores posibles de esta propiedad son:</p>
+<pre class="recuadro">
+none 
+underline 
+overline 
+line-through 
+</pre>
+<p>Como ejemplo, definiremos estilos relacionados al texto para los elementos de cabecera h1, h2 y h3:</p>
+<pre class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Problema&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;style&gt;
+h1 {
+  color:#ff0000;
+  text-align:left;
+  text-decoration:underline;
+}
+h2 {
+  color:#dd0000;
+  text-align:center;
+  text-decoration:underline;
+}
+h3 {
+  color:#aa0000;
+  text-align:right;
+  text-decoration:underline;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;T&iacute;tulo de nivel 1.&lt;h1&gt;
+&lt;h2&gt;T&iacute;tulo de nivel 2.&lt;h2&gt;
+&lt;h3&gt;T&iacute;tulo de nivel 3.&lt;h3&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<img src="https://www.tutorialesprogramacionya.com/cssya/temarios/imagentema/imagen024.jpg" border="0" alt="propiedades css relacionadas al texto"><br>
+<p>Es decir, para los títulos de nivel 1 tenemos la regla:</p>
+<pre class="recuadro">
+h1 {
+  color:#ff0000;
+  text-align:left;
+  text-decoration:underline;
+}
+</pre>
+<p>Color de texto rojo intenso, el texto debe aparecer de izquierda a derecha y subrayado.</p>
+<p>Luego para el elemento h2 tenemos:</p>
+<pre class="recuadro">
+h2 {
+  color:#dd0000;
+  text-align:center;
+  text-decoration:underline;
+}
+</pre>
+<p>El color sigue siendo rojo pero un poco más oscuro, el texto debe aparecer centrado y subrayado.</p>
+<p>Y por último:</p>
+<pre class="recuadro">
+h3 {
+  color:#aa0000;
+  text-align:right;
+  text-decoration:underline;
+}
+</pre>
+<p>Para los títulos de nivel tres, el texto es rojo más oscuro, alineado a derecha y subrayado.</p>
+                        <div class="atras">
+                            <h2><a href="/html/cursocss.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

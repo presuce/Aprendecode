@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="/html/inicio.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursocss.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2">Definición de estilos a nivel de página.</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            <p>También podemos hacer la definición de estilos para los distintos elementos HTML de la página en una sección especial de la cabecera que la encerramos entre las marcas HTML (en su interior definimos los estilos para los elementos HTML que necesitemos):</p>
+<pre  class="recuadro">
+&lt;style&gt;
+&lt;/style&gt;
+</pre>
+<p>El problema del concepto anterior donde debíamos crear un estilo similar para el elemento h1 se puede resolver en forma más adecuada empleando la definición de estilos a nivel de página.</p>
+
+<p>Problema: Mostrar dos títulos con texto de color rojo sobre fondo amarillo.</p>
+<pre  class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Problema&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;style&gt;
+  h1 {color:#ff0000;background-color:#ffff00}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Primer t&iacute;tulo&lt;/h1&gt;
+&lt;h1&gt;Segundo t&iacute;tulo&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>El resultado en el navegador al cargar esta página es:</p>
+<img src="https://www.tutorialesprogramacionya.com/cssya/temarios/imagentema/imagen019.jpg" border="0" alt="style a nivel de pagina"><br>
+
+<p>Podemos observar que en la cabecera de la página definimos la sección:</p>
+<pre  class="recuadro">
+&lt;style&gt;
+h1 {color:#ff0000;background-color:#ffff00}
+&lt;/style&gt;
+</pre>
+<p>Debe estar encerrada por el elemento style. En este ejemplo indicamos al navegador que en todos los lugares de esta página donde se utilice el elemento h1 debe aplicar como estilo de color de texto el rojo y fondo el amarillo. Podemos observar que es mucho más eficiente que definir los estilos directamente sobre los elementos HTML dentro del cuerpo de la página.</p>
+
+<p>Podemos definir estilos para muchos elementos en la sección style:</p>
+<pre  class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Problema&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;style&gt;
+  h1 {color:#ff0000}
+  h2 {color:#00ff00}
+  h3 {color:#0000ff}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;rojo&lt;/h1&gt;
+&lt;h2&gt;verde&lt;/h2&gt;
+&lt;h3&gt;azul&lt;/h3&gt;
+&lt;/body&gt;
+&lt;/html&gt; 
+</pre>
+<img src="https://www.tutorialesprogramacionya.com/cssya/temarios/imagentema/imagen020.jpg" border="0" alt="style a nivel de pagina"><br>
+                        <div class="atras">
+                            <h2><a href="/html/cursocss.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

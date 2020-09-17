@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="../index.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursocss.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2">Propiedades relacionadas a fuentes</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            
+<p>Contamos con una serie de propiedades relacionadas a fuentes:</p>
+<pre  class="recuadro">
+font-family
+font-size
+font-style
+font-weight
+font-variant 
+</pre>
+<p>Podemos inicializar algunas o todas las propiedades relacionadas a fuentes, un ejemplo:</p>
+<pre  class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Problema&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;style&gt;
+h1 {
+     font-family:times new roman;
+     font-size:30px;
+     font-style:italic;
+     font-weight:bold;
+   }
+h2 {
+     font-family:verdana;
+     font-size:20px;
+   }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Titulo de nivel 1&lt;/h1&gt;
+&lt;h2&gt;Titulo de nivel 2&lt;/h2&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<img src="https://www.tutorialesprogramacionya.com/cssya/temarios/imagentema/imagen021.jpg" border="0" alt="propiedades relacionadas a las fuentes"><br>
+<p>Como podemos observar, hemos definido dos reglas de estilos para los elementos h1 y h2, eso significa que el navegador utilizará esas reglas de fuentes para todas las partes de la página que se utilicen dichos elementos HTML.</p>
+<p>La primera regla definida para el elemento h1 es:</p>
+<pre  class="recuadro">
+h1 {
+     font-family:times new roman;
+     font-size:30px;
+     font-style:italic;
+     font-weight:bold;
+   }
+</pre>
+<p>Recordemos que para definir la regla de estilo debemos indicar el nombre del elemento HTML a la que definiremos el estilo (en este caso h1) y luego, entre llaves, todas las propiedades y sus valores separados por punto y coma.</p>
+<p>La primera propiedad inicializada es font-family, algunas de las fuentes más comunes que puede acceder el navegador son:</p>
+<pre  class="recuadro">
+Arial
+Arial Black
+Arial Narrow
+Courier New
+Georgia
+Impact
+Tahoma
+Times New Roman
+Verdana
+</pre>
+<p>En caso que la fuente no esté disponible el navegador selecciona el estilo por defecto para ese elemento HTML.</p>
+<p>Podemos definir varias fuentes por si acaso alguna no se encuentra disponible para el navegador, esto lo hacemos separando por coma todas las fuentes (se eligen de izquierda a derecha):</p>
+<pre  class="recuadro">
+font-family: verdana, arial, georgia;
+</pre> 
+<p>La segunda propiedad inicializada es font-size, hay varias medidas para indicar el tamaño de la fuente (veremos más adelante otros sistemas de medida), en nuestro caso indicamos en píxeles:</p>
+<pre  class="recuadro">
+     font-size:30px;
+</pre>
+<p>La tercera propiedad es font-style, que puede tener los siguientes valores :</p> 
+<pre  class="recuadro">
+normal
+italic
+oblique
+</pre>
+<p>La última propiedad es font-weight (peso de la fuente), pudiendo tomar los siguientes valores:</p>
+<pre  class="recuadro">
+normal
+bold
+bolder
+lighter
+100
+200
+300
+400
+500
+600
+700
+800
+900
+</pre>
+<p>Esta propiedad indica el peso de la fuente (mientras tenga un valor mayor los caracteres serán más rellenos)</p>
+
+<p>La segunda regla define sólo dos propiedades relacionadas a la fuente:</p>
+<pre  class="recuadro">
+h2 {
+     font-family:verdana;
+     font-size:20px;
+   }
+</pre>
+<p>Las propiedades que no se inicializan quedan como responsabilidad al navegador, quien elegirá los valores correspondientes.</p>
+<p>Existe una última propiedad no utilizada en este ejemplo que es font-variant que puede asumir estos dos valores:</p>
+<pre  class="recuadro">
+small-caps
+normal
+</pre>
+<p>Define si la fuente se muestra en mayúsculas tipo normal o pequeñas. </p>
+                        <div class="atras">
+                            <h2><a href="/html/cursocss.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

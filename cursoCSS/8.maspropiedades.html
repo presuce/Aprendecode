@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="/html/inicio.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursocss.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2">Más propiedades relacionadas al texto (letter-spacing, word-spacing, text-indent, text-transform)</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            
+<p>Vimos en el concepto anterior las propiedades:</p>
+<pre class="recuadro">
+color
+text-align
+text-decoration
+</pre>
+<p>Ahora veremos el objetivo de las siguientes propiedades que nos faltan:</p>
+<pre class="recuadro">
+letter-spacing
+word-spacing
+text-indent
+text-transform
+</pre>
+<p>La propiedad letter-spacing y word-spacing permiten indicar el espacio que debe haber entre los caracteres y entre las palabras.</p>
+<p>La propiedad text-indent, indenta la primera linea de un texto. A partir de la segunda línea, el texto aparece sin indentación. Podemos indicar un valor negativo con lo que la indentación es hacia la izquierda.</p>
+<p>Por último, la propiedad text-transform puede inicializarse con alguno de los siguientes valores:</p>
+<pre class="recuadro">none - capitalize - lowercase - uppercase </pre>
+<p>Cada uno de estos valores transforman el texto como sigue:</p>
+<ul>
+<li>capitalize: Dispone en mayúsculas el primer caracter de cada palabra.</li>
+<li>lowercase: Convierte a minúsculas todas las letras del texto.</li>
+<li>uppercase: Convierte a mayúsculas todas las letras del texto.</li>
+<li>none: No provoca cambios en el texto.</li>
+</ul>
+<p>El siguiente ejemplo define reglas para los elementos h1 y p:</p>
+<pre class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Problema&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;style&gt;
+h1 {
+  letter-spacing:10px;
+  word-spacing:30px;
+  text-transform:capitalize;
+}
+p {
+  text-indent:20px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Este es un t&iacute;tulo de nivel 1&lt;/h1&gt;
+&lt;p&gt;Todo el texto siguiente se encuentra encerrado en el elemento de p&aacute;rrafo 
+y con el objetivo de ver el efecto de la propiedad text-indent.
+La propiedad text-indent podemos inicializarla con un valor positivo, 
+como es el caso actual o podemos inicializarla con un valor negativo lo que 
+provocar&aacute; que el texto de la primera l&iacute;nea del p&aacute;rrafo 
+comience en una columna inferior al de todo el bloque. &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<img src="https://www.tutorialesprogramacionya.com/cssya/temarios/imagentema/imagen025.jpg" border="0" alt="letter-spacing, word-spacing, text-indent, text-transform">
+<p>La cabecera de nivel uno, tiene la siguiente regla:</p>
+
+<pre class="recuadro">  letter-spacing:10px;
+  word-spacing:30px;
+  text-transform:capitalize;
+}
+</pre>
+<p>
+    Es decir que las letras deben tener una separación de 10 pixeles, las palabras deben estar separadas
+    por 30 pixeles y por último deben disponerse en mayúsculas la primera letra de cada palabra.Para el elemento p tenemos la siguiente regla
+</p>
+
+<pre class="recuadro">
+p {
+  text-indent:20px;
+}
+</pre>
+<div class="atras">
+    <h2><a href="/html/cursocss.html">Retornar</a></h2>  
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

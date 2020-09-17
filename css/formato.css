@@ -1,0 +1,22 @@
+
+.formato{
+ 
+    color: chocolate;
+    background-color: rgb(11, 11,14);
+    width: 100%;
+    float: left;
+}
+.contenedorglobal{
+    width: 950px;
+ 
+    margin: auto;
+    padding: 0 2rem;
+    color: white;
+    line-height: 2rem;
+}
+img{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+

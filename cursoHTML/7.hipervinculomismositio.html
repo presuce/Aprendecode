@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="../index.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursohtml.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2">Hipervínculo a otra página del mismo sitio &lt;a&gt;</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            <p>El elemento más importante que tiene una página de internet es el hipervínculo, estos nos permiten cargar otra página en el navegador. Esto es lo que hace diferente la página de un libro con la página de un sitio en internet. Normalmente un libro lo recorremos en forma secuencial, pero un sitio de internet podemos disponer estos enlaces entre un conjunto de páginas y luego tener distintas alternativas de recorrido.</p>
+<p>Normalmente un navegador al encontrar esta etiqueta HTML muestra un texto subrayado, y al hacer clic con el mouse sobre éste el navegador carga la página indicada por dicho hipervínculo.</p>
+<p>Primero veremos cual es la sintaxis para disponer un hipervínculo a una página que se encuentra en el mismo sitio (es decir otra página que hemos desarrollado nosotros).</p>
+<p>El elemento de hipervínculo a otra página del mismo sitio tiene la siguiente sintaxis:</p>
+<pre class="recuadro">
+&lt;a href=&quot;pagina2.html&quot;&gt;Noticias&lt;/a&gt;
+</pre>
+<p>Como vemos, se trata de otro elemento HTML que tiene comienzo de marca y fin de marca. Lo que se encuentra entre el comienzo de marca y el fin de la marca es el texto que aparece en la página (normalmente subrayado).</p>
+<p>Lo nuevo que aparece en éste elemento es el concepto de una propiedad. Una propiedad se incorpora en el comienzo de una marca y tiene un nombre y un valor.</p>
+<p>El valor de la propiedad debe ir entre comillas dobles.<p>
+<p>La propiedad href del elemento "a" hace referencia a la página que debe mostrar el navegador si el visitante hace clic sobre el hipervínculo:</p>
+<img src="http://www.tutorialesprogramacionya.com/htmlya/temarios/imagentema/foto001.jpg" border="0" alt="hipervínculo a otra página del mismo sitio"><br>
+
+<p>Implementemos dos páginas que contengan hipervínculos entre si, los nombres de las páginas HTML serán: pagina1.html y pagina2.html</p>
+<p>El contenido de pagina1.html es:</p>
+<pre class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Título de la página 1&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Página principal.&lt;/h1&gt;
+&lt;a href="pagina2.html"&gt;Noticias&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>Como podemos observar lo nuevo en la pagina1.html es el hipervínculo a la pagina2.html:</p>
+<pre class="recuadro">
+&lt;a href=&quot;pagina2.html&quot;&gt;Noticias&lt;/a&gt;
+</pre>
+<p>Toda propiedad toma el valor que se encuentra seguidamente del caracter "="</p>
+<p>El valor de la propiedad href en este caso es pagina2.html (es otro archivo HTML que debe encontrarse en nuestro sitio y en el mismo directorio), si lo probamos en nuestro equipo disponer los dos archivos en la misma carpeta.</p>
+<p>El segundo archivo pagina2.html tiene un hipervínculo a la primer página:</p>
+<pre class="recuadro">
+&lt;a href=&quot;pagina1.html&quot;&gt;Salir.&lt;/a&gt;
+</pre>
+<p>Para recordar el nombre de esta etiqueta HTML:</p>
+<pre class="recuadro">
+<b>&lt;a&gt;</b> viene de <strong>anchor</strong> que significa ancla.
+</pre>
+
+<p>La segunda página en nuestro ejemplo es:</p>
+<p>pagina2.html</p>
+
+<pre class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Título de la página 2&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Noticias.&lt;/h1&gt;
+&lt;a href="pagina1.html"&gt;Salir.&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                        </div>
+                    </div>
+                        <div class="atras">
+                            <h2><a href="/html/cursohtml.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

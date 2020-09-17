@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="../index.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursohtml.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2"> Hipervínculo mediante una imagen &lt;a&gt; y &lt;img&gt;</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            
+
+<p>Como ya conocemos los hipervínculos y como insertar imágenes en nuestra página, ahora podemos implementar un hipervínculo pero en vez de mostrar un texto mostraremos una imagen.</p>
+<p>La solución es simple y consiste en disponer la etiqueta &lt;img&gt; encerrada entre la marca de comienzo y fin del enlace(&lt;a&gt;)</p>
+<p>Confeccionemos una página que muestre dos imagenes (foto1.jpg y foto2.jpg) como hipervínculos. Al ser presionados llamar a otra página.</p>
+<p>Las imágenes se encuentran en la carpeta del directorio padre donde se encuentra nuestra página HTML:</p>
+<pre class="recuadro">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Título de la página&lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;Presione alguna de las imagenes para conocer más sobre esa obra.&lt;/h2&gt;
+&lt;a href="pagina2.html"&gt;&lt;img src="../foto1.jpg" alt="Pintura Geométrica"&gt; &lt;/a&gt;
+&lt;br&gt;
+&lt;a href="pagina3.html"&gt;&lt;img src="../foto2.jpg" alt="Pintura Geométrica"&gt; &lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>El resultado en el navegador es:</p>
+<img src="http://www.tutorialesprogramacionya.com/htmlya/temarios/imagentema/foto004.jpg" border="0" alt="hipervínculo a otra página con imágenes img"><br>
+<p>Como podemos observar insertamos el elemento HTML img en el lugar donde disponíamos el texto del hipervínculo. Eso es todo.</p>
+<p>Lo que debe quedar bien en claro es que las imágenes se encuentran en el directorio padre de donde se encuentra nuestra página (luego para indicar la referencia al archivo lo hacemos antecediendo dos puntos seguidos y la barra invertida ../ con lo que hacemos referencia al directorio padre (tengamos en cuenta que si las imágenes se encuentran en el mismo directorio luego solo indicamos el nombre del archivo: &lt;img src="foto2.jpg" alt="Pintura Geométrica"&gt; )</p>
+<p>Es bueno practicar con esto ya que cuando implementemos sitios muy grandes seguramente agruparemos archivos en distintas carpetas.</p>
+                        </div>
+                    </div>
+                        <div class="atras">
+                            <h2><a href="/html/cursohtml.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

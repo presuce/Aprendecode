@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Bebas+Neue&family=Coda&family=Unica+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2290d04905.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/encabezado.css">
+    <link rel="stylesheet" href="/css/formato.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/estilocursos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <a class="titulo1"
+             href="../index.html"><h1>    Aprende   < CODE > </h1></a>
+             <p class="formación">
+                Cursos de formación online gratuita
+            </p>
+        </div>
+    </header>
+    <div class="formato">
+        <div class="contenedorglobal">
+            <div class="fondo">
+                <div class="contenedortitulo">
+                    <table>
+                        <tr>
+                            <td class="temario"><nav class="cajacursos"><a href="/html/cursohcss.html">Temario</a></td></nav>
+                            <td><h2 class="titulos2"> Definición de estilos a nivel de elemento HTML.</h2></td>
+                            <td class="paginacursos"><nav class="cajacursos"><a href="/html/curso.html">Listado de Cursos</a></nav></td>
+                        </tr>
+                    </table>
+                    <div class="contenedorcontenido">
+                        <div class="contenido">
+                            <p>Es la forma más fácil pero menos recomendada para aplicación de un estilo a un elemento HTML. Se define en la propiedad style los estilos a definir para dicho elemento.<br>
+                                <p>Es común a veces definir estilos directamente en los elementos HTML cuando estamos probando diseños de elementos particulares de la página y posteriormente trasladar el estilo creado a la zona de definición de estilos.</p>
+                                <p>La sintaxis para definir un estilo a un elemento HTML es la siguiente:</p>
+                                <pre class="recuadro">
+ &lt;!DOCTYPE html&gt;
+ &lt;html&gt;
+ &lt;head&gt;
+   &lt;title&gt;Título de la página&lt;/title&gt;  
+   &lt;meta charset="UTF-8"&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+ &lt;h1 style=&quot;color:#ff0000;background-color:#ffff00&quot;&gt;
+   Este mensaje es de color rojo sobre fondo amarillo.
+ &lt;/h1&gt;
+ &lt;/body&gt;
+ &lt;/html&gt;
+                                </pre>
+                                <p>El resultado en el navegador al cargar esta página es:</p>
+                                <img src="https://www.tutorialesprogramacionya.com/cssya/temarios/imagentema/imagen018.jpg" border="0" alt="style css"><br>
+                                
+                                <p>Por defecto, todo navegador tiene un estilo definido para cada elemento HTML, lo que hacemos con la propiedad style es redefinir el estilo por defecto. En este problema definimos que el elemento h1 defina como color de texto el rojo y como color de fondo el amarillo:</p>
+                                <pre class="recuadro">
+ &lt;h1 style=&quot;color:#ff0000;background-color:#ffff00&quot;&gt;
+   Este mensaje es de color rojo sobre fondo amarillo.
+ &lt;/h1&gt;
+                                </pre>
+                                <p>Veremos más adelante que hay muchas propiedades en CSS. En este primer ejemplo inicializamos las propiedades color (define el color del texto) y background-color (define el color de fondo del texto).</p>
+                                <p>Cada vez que inicializamos una propiedad debemos separarla de la siguiente por punto y coma.</p>
+                                
+                                <p>Cuando definimos estilos directamente en el elemento HTML, tenemos que tener en cuenta que el estilo se aplica únicamente a dicho elemento donde inicializamos la propiedad style, es decir, si tenemos dos secciones h1, deberemos definir la propiedad style para cada elemento:</p>
+                                <pre class="recuadro">
+&lt;h1 style=&quot;color:#ff0000;background-color:#ffff00&quot;&gt;
+Primer t&iacute;tulo
+&lt;/h1&gt;
+&lt;h1 style=&quot;color:#ff0000;background-color:#ffff00&quot;&gt;
+Segundo t&iacute;tulo
+&lt;/h1&gt;
+                                </pre>
+                                <p>Como podemos observar, más allá que los dos estilos son exactamente iguales, estamos obligados a definirlos para cada elemento HTML.</p>
+                        <div class="atras">
+                            <h2><a href="/html/cursocss.html">Retornar</a></h2>  
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
